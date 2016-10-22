@@ -8,7 +8,7 @@ public class PaymentTransaction {
     private String monthValid;
     private String brand;
     private String cvv;
-    private String amountTransaction;
+    private String amount;
 
     public PaymentTransaction() {}
 
@@ -60,11 +60,11 @@ public class PaymentTransaction {
         this.cvv = cvv;
     }
 
-    public String getAmountTransaction() {
-        return amountTransaction;
+    public String getAmount() {
+        return amount;
     }
 
-    public void setAmountTransaction(String amountTransaction) {
-        this.amountTransaction = amountTransaction;
+    public void setAmount(String amount) {
+        this.amount = amount;
     }
 }
