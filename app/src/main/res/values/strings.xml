@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PaymentWithCreditCardSample</string>
+    <string name="pay_button">Pagar</string>
+    <string name="history_button">Ver histórico</string>
 </resources>

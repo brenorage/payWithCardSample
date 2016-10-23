@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
 
-public class MakePaymentActivity extends AppCompatActivity {
+public class HistoryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_make_payment);
+        setContentView(R.layout.activity_history);
     }
 }

@@ -3,10 +3,7 @@ package com.example.brenorage.paymentwithcreditcardsample.controller;
 import com.example.brenorage.paymentwithcreditcardsample.connection.PaymentConnection;
 import com.example.brenorage.paymentwithcreditcardsample.model.PaymentTransaction;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class PaymentController {
 
@@ -17,7 +14,6 @@ public class PaymentController {
     }
 
     private Call getCall(PaymentTransaction paymentTransaction) throws Exception {
-
         PaymentConnection paymentConnection = new PaymentConnection();
         return paymentConnection.makeTransaction(paymentTransaction);
     }
