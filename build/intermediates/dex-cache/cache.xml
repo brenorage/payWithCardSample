@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7eb2ebc236c52a0e2b0df568adc04ea1cad68acc">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8301c975e4d93923c53993ccdd0148956d319b91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b85c1d81ef9b4b700edc768c6c508fc23d265af1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_70bb70ec0788debd5cc9a1832a195922aa06ea92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_285d2692e148c4238dfb8205138da9ad1d6043f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_699b0066b35ebd2c7d18198f690e2c391c0fe986/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_d3eb82be13dca36ead7a5f9d6a2747eec2199771/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_358bb0195f24adb534e2658043c2ca98f99602c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_de33519faa94abe21291ea2bab6759b0dd0b7106/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.satyan-sugar-1.4_0d1eb02c9515d98091096e84140a5d68a5ad3849/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_1533c48171b9aa2d729c45d1f97466361b721936/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_38a49b59efea8daa4f8dcf54ddb59124ec1c4a5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_9fc527cdac1834be6ecfb940e5073f7c78839166/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_553f2a52d372927a31b8a7eac42867c63c368a84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_84a5de2097054b28fc7251597ae4c1f696281214/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_76ea8e6edfc4d57ca6ccf42679c5a6958633fa3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_0d041aaf0a3fffbc70a5ecf5d11c7ef34fc88e4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_8d9d6dd2990b893ef0727d7093414bf08d2ccc39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3248df1f73e02d447c5deabfb3b1f73c932c1c0">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ba687e4de5753887f224b6d8d9283ba468593691/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_547c77172c18096483cbeb0a6b2a0dbc459d935d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_9f99185761fac2be97a2aea1059e28da5ea27c8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_e69e1ceb664ad0f943d9279fece57b2de98a5974/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_82f1ba5912802b77a04fba2caacb804a058fff30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_1c952ac4770cd1b2c499d479b41fd6084ff9ccdb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_846be765ea06decb3e0a8492154622b72eeaf78a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/brenorage/android-studio/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_11504794b836348f754d8a1e506ef1bea44e8da2/classes.dex" />
+    </item>
+
+</items>

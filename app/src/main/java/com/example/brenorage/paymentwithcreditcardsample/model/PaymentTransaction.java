@@ -1,6 +1,8 @@
 package com.example.brenorage.paymentwithcreditcardsample.model;
 
-public class PaymentTransaction {
+import com.orm.SugarRecord;
+
+public class PaymentTransaction extends SugarRecord {
 
     private String ownerName;
     private String cardNumber;
