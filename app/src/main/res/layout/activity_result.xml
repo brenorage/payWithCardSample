@@ -25,4 +25,11 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok_button"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:text="@android:string/ok"/>
 </LinearLayout>

@@ -24,7 +24,7 @@ public class PaymentPresenter {
         this.activity = activity;
     }
 
-    public void doTransaction(PaymentTransaction paymentTransaction, Context context) {
+    public void doTransaction(PaymentTransaction paymentTransaction) {
         try {
             paymentTransaction.save();
             Call call = getCall(paymentTransaction);
@@ -40,6 +40,7 @@ public class PaymentPresenter {
         if(statusCode == Constants.CONN_RESULT_OK) {
             Intent intent = new Intent(activity, ResultActivity.class);
             activity.startActivityForResult(intent, Constants.RESULT_OK);
+            activity.finish();
         }
     }
 
@@ -48,10 +49,11 @@ public class PaymentPresenter {
         switch (statusCode) {
             case Constants.CONN_NOT_FOUND:
                 activity.startActivityForResult(intent, Constants.RESULT_ERROR_404);
+                activity.finish();
                 break;
             case Constants.CONN_INTERNAL_ERROR:
-                Intent intent2 = new Intent(activity, ResultActivity.class);
-                activity.startActivityForResult(intent2, Constants.RESULT_ERROR_500);
+                activity.startActivityForResult(intent, Constants.RESULT_ERROR_500);
+                activity.finish();
                 break;
         }
     }
