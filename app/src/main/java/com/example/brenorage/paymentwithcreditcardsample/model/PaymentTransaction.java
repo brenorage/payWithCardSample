@@ -11,6 +11,7 @@ public class PaymentTransaction extends SugarRecord {
     private String brand;
     private String cvv;
     private String amount;
+    private String transactionId;
 
     public PaymentTransaction() {}
 
@@ -68,5 +69,13 @@ public class PaymentTransaction extends SugarRecord {
 
     public void setAmount(String amount) {
         this.amount = amount;
+    }
+
+    public String getTransactionId() {
+        return transactionId;
+    }
+
+    public void setTransactionId(String transactionId) {
+        this.transactionId = transactionId;
     }
 }
