@@ -4,4 +4,11 @@
     <string name="history_button">Ver histórico</string>
     <string name="history_label">Histórico</string>
     <string name="pay_label">Pagar</string>
+    <string name="name_hint">Nome</string>
+    <string name="card_number_hint">Número do cartão</string>
+    <string name="month_hint">MM</string>
+    <string name="year_hint">AAAA</string>
+    <string name="amount_hint">Digite o valor aqui</string>
+    <string name="cvv_hint">CVV</string>
+    <string name="empty_field">Esse campo deve ser preenchido</string>
 </resources>

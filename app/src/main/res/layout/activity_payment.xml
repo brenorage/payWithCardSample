@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_payment"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:padding="@dimen/activity_horizontal_margin"
     tools:context="com.example.brenorage.paymentwithcreditcardsample.view.PaymentActivity">
 
-</RelativeLayout>
+    <EditText
+        android:hint="@string/amount_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
+        android:id="@+id/amountTextView" />
+
+    <EditText
+        android:hint="@string/name_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTextView"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:hint="@string/card_number_hint"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cardNumberTextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:hint="@string/cvv_hint"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvvTextView" />
+
+        <EditText
+            android:hint="@string/month_hint"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthTextView" />
+        <EditText
+            android:hint="@string/year_hint"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearTextView" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_button"
+        android:layout_marginTop="20dp"
+        android:id="@+id/paymentButton"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
