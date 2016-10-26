@@ -3,6 +3,7 @@ package com.example.brenorage.paymentwithcreditcardsample.view;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
@@ -31,10 +32,13 @@ public class ResultActivity extends AppCompatActivity {
 
         switch (resultCode) {
             case Constants.RESULT_OK:
+                Log.e("Sucesso", "sucesso na requisição");
                 break;
             case Constants.RESULT_ERROR_404:
+                Log.e("Error", "404 error");
                 break;
             case Constants.RESULT_ERROR_500:
+                Log.e("Error", "500 error");
                 break;
         }
     }

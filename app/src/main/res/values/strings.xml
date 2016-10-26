@@ -3,6 +3,7 @@
     <string name="pay_button">Pagar</string>
     <string name="history_button">Ver histórico</string>
     <string name="history_label">Histórico</string>
+    <string name="result_label">Resultado</string>
     <string name="pay_label">Pagar</string>
     <string name="name_hint">Nome</string>
     <string name="card_number_hint">Número do cartão</string>

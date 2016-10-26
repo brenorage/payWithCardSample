@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.brenorage.paymentwithcreditcardsample">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.orm.SugarApp"
         android:allowBackup="true"
@@ -24,7 +26,9 @@
         <activity
             android:name=".view.HistoryActivity"
             android:label="@string/history_label" />
-        <activity android:name=".view.ResultActivity"></activity>
+
+        <activity android:name=".view.ResultActivity"
+            android:label="@string/result_label"/>
     </application>
 
 </manifest>

@@ -15,7 +15,6 @@ import retrofit2.Call;
 
 public class PaymentPresenter {
 
-    private Call call;
     private Activity activity;
 
     public PaymentPresenter(Activity activity) {
@@ -26,7 +25,6 @@ public class PaymentPresenter {
         try {
             paymentTransaction.save();
             Call<PaymentTransaction> call = getCall(paymentTransaction);
-            call.execute();
             call.enqueue(new PaymentCallBack(this));
         }
         catch (Exception e){

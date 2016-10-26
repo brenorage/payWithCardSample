@@ -3,7 +3,7 @@ package com.example.brenorage.paymentwithcreditcardsample.Util;
 public final class Constants {
 
     //URL
-    public static final String BASE_URL = "http://paymentmaker.apiblueprint.org/";
+    public static final String BASE_URL = "http://private-977364-paymentapi18.apiary-mock.com/";
 
     //Connection constants
     public static final int CONN_RESULT_OK = 200;
