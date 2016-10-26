@@ -10,9 +10,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="DATABASE"
-            android:value="sugar_example.db" />
 
         <activity android:name=".view.MainActivity">
             <intent-filter>

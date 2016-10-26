@@ -1,16 +1,14 @@
 package com.example.brenorage.paymentwithcreditcardsample.presenter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 import com.example.brenorage.paymentwithcreditcardsample.Util.Constants;
 import com.example.brenorage.paymentwithcreditcardsample.connection.PaymentCallBack;
 import com.example.brenorage.paymentwithcreditcardsample.connection.PaymentConnection;
-import com.example.brenorage.paymentwithcreditcardsample.model.PaymentResult;
 import com.example.brenorage.paymentwithcreditcardsample.model.PaymentTransaction;
 import com.example.brenorage.paymentwithcreditcardsample.view.ResultActivity;
-import com.google.gson.Gson;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -27,12 +25,12 @@ public class PaymentPresenter {
     public void doTransaction(PaymentTransaction paymentTransaction) {
         try {
             paymentTransaction.save();
-            Call call = getCall(paymentTransaction);
+            Call<PaymentTransaction> call = getCall(paymentTransaction);
             call.execute();
             call.enqueue(new PaymentCallBack(this));
         }
         catch (Exception e){
-            //
+            Log.e("Error", "call error");
         }
     }
 
@@ -62,7 +60,7 @@ public class PaymentPresenter {
 
     }
 
-    private Call getCall(PaymentTransaction paymentTransaction) throws Exception {
+    private Call<PaymentTransaction> getCall(PaymentTransaction paymentTransaction) throws Exception {
         PaymentConnection paymentConnection = new PaymentConnection();
         return paymentConnection.makeTransaction(paymentTransaction);
     }

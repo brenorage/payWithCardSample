@@ -1,14 +1,15 @@
 package com.example.brenorage.paymentwithcreditcardsample.connection;
 
+import com.example.brenorage.paymentwithcreditcardsample.model.PaymentTransaction;
 import com.example.brenorage.paymentwithcreditcardsample.presenter.PaymentPresenter;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class PaymentCallBack implements Callback {
+public class PaymentCallBack implements Callback<PaymentTransaction> {
 
-    PaymentPresenter paymentPresenter;
+    private PaymentPresenter paymentPresenter;
 
     public PaymentCallBack(PaymentPresenter paymentPresenter){
         this.paymentPresenter = paymentPresenter;

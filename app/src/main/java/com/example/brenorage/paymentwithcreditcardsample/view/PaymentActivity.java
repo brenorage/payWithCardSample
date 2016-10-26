@@ -2,9 +2,11 @@ package com.example.brenorage.paymentwithcreditcardsample.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.EditText;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
+import com.example.brenorage.paymentwithcreditcardsample.Util.watchers.TextWatcherForCurrencyFormat;
 import com.example.brenorage.paymentwithcreditcardsample.model.PaymentTransaction;
 import com.example.brenorage.paymentwithcreditcardsample.presenter.PaymentPresenter;
 
@@ -44,12 +46,23 @@ public class PaymentActivity extends AppCompatActivity {
         if(getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        amountEditText.addTextChangedListener(new TextWatcherForCurrencyFormat(amountEditText));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @OnClick(R.id.paymentButton)
     public void confirmAction() {
-        fillPaymentTransaction();
         paymentTransaction = new PaymentTransaction();
+        fillPaymentTransaction();
         paymentPresenter = new PaymentPresenter(this);
         paymentPresenter.doTransaction(paymentTransaction);
     }
@@ -81,7 +94,7 @@ public class PaymentActivity extends AppCompatActivity {
             yearTextView.setError(getString(R.string.empty_field));
         }
         else {
-            paymentTransaction.setAmount(amount);
+            paymentTransaction.setAmount(amount.replaceAll("[R$]", ""));
             paymentTransaction.setOwnerName(name);
             paymentTransaction.setCardNumber(cardNumber);
             paymentTransaction.setCvv(cvv);
