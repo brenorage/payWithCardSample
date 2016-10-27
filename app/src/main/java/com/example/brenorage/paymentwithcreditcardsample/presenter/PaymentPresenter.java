@@ -55,7 +55,29 @@ public class PaymentPresenter {
     }
 
     public void onConnectionFail(Throwable t) {
+        Intent intent = new Intent(activity, ResultActivity.class);
+        activity.startActivityForResult(intent, Constants.RESULT_FAIL);
+        activity.finish();
+    }
 
+    public boolean isValidMonth(String month) {
+        if(!month.isEmpty()) {
+            int monthInt = Integer.valueOf(month);
+            if(monthInt > 0 && monthInt < 13) {
+               return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean isValidYear(String year) {
+        if(!year.isEmpty()) {
+            int yearInt = Integer.valueOf(year);
+            if(year.length() == 4 && yearInt > 2015) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private Call<PaymentTransaction> getCall(PaymentTransaction paymentTransaction) throws Exception {

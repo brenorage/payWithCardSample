@@ -3,6 +3,7 @@ package com.example.brenorage.paymentwithcreditcardsample.view;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
@@ -43,6 +44,8 @@ public class PaymentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_payment);
         ButterKnife.bind(this);
 
+        paymentPresenter = new PaymentPresenter(this);
+
         if(getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
@@ -61,10 +64,7 @@ public class PaymentActivity extends AppCompatActivity {
 
     @OnClick(R.id.paymentButton)
     public void confirmAction() {
-        paymentTransaction = new PaymentTransaction();
         fillPaymentTransaction();
-        paymentPresenter = new PaymentPresenter(this);
-        paymentPresenter.doTransaction(paymentTransaction);
     }
 
     private void fillPaymentTransaction() {
@@ -84,22 +84,25 @@ public class PaymentActivity extends AppCompatActivity {
         else if(cardNumber.isEmpty()) {
             cardNumberTextView.setError(getString(R.string.empty_field));
         }
-        else if(cvv.isEmpty()) {
+        else if(cvv.isEmpty() || cvv.length() < 3) {
             cvvTextView.setError(getString(R.string.empty_field));
         }
-        else if(month.isEmpty()) {
+        else if(!paymentPresenter.isValidMonth(month)) {
             monthTextView.setError(getString(R.string.empty_field));
         }
-        else if(year.isEmpty()) {
+        else if(!paymentPresenter.isValidYear(year)) {
             yearTextView.setError(getString(R.string.empty_field));
         }
         else {
+            paymentTransaction = new PaymentTransaction();
             paymentTransaction.setAmount(amount.replaceAll("[R$]", ""));
             paymentTransaction.setOwnerName(name);
             paymentTransaction.setCardNumber(cardNumber);
             paymentTransaction.setCvv(cvv);
+            paymentTransaction.setBrand("visa");
             paymentTransaction.setMonthValid(month);
             paymentTransaction.setYearValid(year);
+            paymentPresenter.doTransaction(paymentTransaction);
         }
     }
 }
