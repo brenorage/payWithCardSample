@@ -12,11 +12,17 @@ public class HistoryPresenter {
 
     public HistoryPresenter() {}
 
-    private List<PaymentTransaction> getTransactionList() {
+    private List<PaymentTransaction> getTransactionList() throws Exception {
         return PaymentTransaction.listAll(PaymentTransaction.class);
     }
 
-    public HistoryAdapterRecyclerView getAdapter() {
-        return new HistoryAdapterRecyclerView(getTransactionList());
+    public HistoryAdapterRecyclerView getAdapter() throws Exception {
+        List<PaymentTransaction> list = getTransactionList();
+        if(list.isEmpty()) {
+            throw new Exception();
+        }
+        else {
+            return new HistoryAdapterRecyclerView(getTransactionList());
+        }
     }
 }

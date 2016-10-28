@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
 import com.example.brenorage.paymentwithcreditcardsample.Util.adapters.HistoryAdapterRecyclerView;
@@ -19,6 +21,9 @@ public class HistoryActivity extends AppCompatActivity {
 
     @BindView(R.id.historyListRecyclerView)
     RecyclerView recyclerView;
+
+    @BindView(R.id.listEmpty)
+    TextView listEmpty;
 
     HistoryPresenter historyPresenter;
 
@@ -39,7 +44,19 @@ public class HistoryActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         historyPresenter = new HistoryPresenter();
-        recyclerView.setAdapter(historyPresenter.getAdapter());
+        try {
+            HistoryAdapterRecyclerView adapter = historyPresenter.getAdapter();
+
+            if(adapter == null) {
+                setListEmptyLayout();
+            }
+            else {
+                recyclerView.setAdapter(adapter);
+            }
+        }
+        catch (Exception e) {
+            setListEmptyLayout();
+        }
     }
 
     @Override
@@ -49,5 +66,10 @@ public class HistoryActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void setListEmptyLayout() {
+        recyclerView.setVisibility(View.GONE);
+        listEmpty.setVisibility(View.VISIBLE);
     }
 }

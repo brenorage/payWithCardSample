@@ -1,14 +1,14 @@
 package com.example.brenorage.paymentwithcreditcardsample.presenter;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.util.Log;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 
+import com.example.brenorage.paymentwithcreditcardsample.R;
 import com.example.brenorage.paymentwithcreditcardsample.Util.Constants;
 import com.example.brenorage.paymentwithcreditcardsample.connection.PaymentCallBack;
 import com.example.brenorage.paymentwithcreditcardsample.connection.PaymentConnection;
 import com.example.brenorage.paymentwithcreditcardsample.model.PaymentTransaction;
-import com.example.brenorage.paymentwithcreditcardsample.view.ResultActivity;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -28,36 +28,33 @@ public class PaymentPresenter {
             call.enqueue(new PaymentCallBack(this));
         }
         catch (Exception e){
-            Log.e("Error", "call error");
+            onConnectionFail(e.getCause());
         }
     }
 
     public void onConnectionSuccess(int statusCode, Object body) {
         if(statusCode == Constants.CONN_RESULT_OK) {
-            Intent intent = new Intent(activity, ResultActivity.class);
-            activity.startActivityForResult(intent, Constants.RESULT_OK);
-            activity.finish();
+            createAlertDialog(activity.getString(android.R.string.ok),
+                    activity.getString(R.string.success_payment));
         }
     }
 
     public void onConnectionError(int statusCode, ResponseBody responseBody) {
-        Intent intent = new Intent(activity, ResultActivity.class);
         switch (statusCode) {
             case Constants.CONN_NOT_FOUND:
-                activity.startActivityForResult(intent, Constants.RESULT_ERROR_404);
-                activity.finish();
+                createAlertDialog(activity.getString(android.R.string.ok),
+                        activity.getString(R.string.generic_error_payment));
                 break;
             case Constants.CONN_INTERNAL_ERROR:
-                activity.startActivityForResult(intent, Constants.RESULT_ERROR_500);
-                activity.finish();
+                createAlertDialog(activity.getString(android.R.string.ok),
+                        activity.getString(R.string.generic_error_payment));
                 break;
         }
     }
 
     public void onConnectionFail(Throwable t) {
-        Intent intent = new Intent(activity, ResultActivity.class);
-        activity.startActivityForResult(intent, Constants.RESULT_FAIL);
-        activity.finish();
+        createAlertDialog(activity.getString(android.R.string.ok),
+                activity.getString(R.string.generic_error_payment));
     }
 
     public boolean isValidMonth(String month) {
@@ -78,6 +75,20 @@ public class PaymentPresenter {
             }
         }
         return false;
+    }
+
+    private void createAlertDialog(String buttonOk, String message) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        builder.setMessage(message);
+        builder.setPositiveButton(buttonOk, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+                activity.finish();
+            }
+        });
+        builder.create();
+        builder.show();
     }
 
     private Call<PaymentTransaction> getCall(PaymentTransaction paymentTransaction) throws Exception {

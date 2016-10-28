@@ -35,6 +35,9 @@ public class PaymentActivity extends AppCompatActivity {
     @BindView(R.id.yearTextView)
     EditText yearTextView;
 
+    @BindView(R.id.brandCardTextView)
+    EditText brandCardTextView;
+
     PaymentPresenter paymentPresenter;
     PaymentTransaction paymentTransaction;
 
@@ -74,6 +77,7 @@ public class PaymentActivity extends AppCompatActivity {
         String cvv = cvvTextView.getText().toString();
         String month = monthTextView.getText().toString();
         String year = yearTextView.getText().toString();
+        String brandCard = brandCardTextView.getText().toString();
 
         if(amount.isEmpty()) {
             amountEditText.setError(getString(R.string.empty_field));
@@ -93,13 +97,16 @@ public class PaymentActivity extends AppCompatActivity {
         else if(!paymentPresenter.isValidYear(year)) {
             yearTextView.setError(getString(R.string.empty_field));
         }
+        else if(brandCard.isEmpty()) {
+            brandCardTextView.setError(getString(R.string.empty_field));
+        }
         else {
             paymentTransaction = new PaymentTransaction();
             paymentTransaction.setAmount(amount.replaceAll("[R$]", ""));
             paymentTransaction.setOwnerName(name);
             paymentTransaction.setCardNumber(cardNumber);
             paymentTransaction.setCvv(cvv);
-            paymentTransaction.setBrand("visa");
+            paymentTransaction.setBrand(brandCard);
             paymentTransaction.setMonthValid(month);
             paymentTransaction.setYearValid(year);
             paymentPresenter.doTransaction(paymentTransaction);

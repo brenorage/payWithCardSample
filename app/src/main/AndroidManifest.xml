@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.orm.SugarApp"
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,8 +27,6 @@
             android:name=".view.HistoryActivity"
             android:label="@string/history_label" />
 
-        <activity android:name=".view.ResultActivity"
-            android:label="@string/result_label"/>
     </application>
 
 </manifest>

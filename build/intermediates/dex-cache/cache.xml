@@ -3,228 +3,228 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_2a7c4aff01f09fb9110c22ea694a081332bd5b5d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_4302c0c0800889a693a3333b26f26b0c8d1db912.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_b0f7b4c75e25ae1cd7cf46df68353f9e3e587551.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_fc54361fcd8467a85c985c973a01762cc506df50.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_857cb333d7210e961a4026c2a4b553b309888df7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_b9c184a9bf8405dd45faaf5919170fd160a2fef6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_d5891af267da7e506f740da962223e66060efc92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_1af356ea369d03d4856303537d32d4833a26c0f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_40dcd582eb921f48c523e296cf014b62dfa6c0ca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.5\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="19a40a8afe0289f6520b25353096ac233e78f69d">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.github.satyan-sugar-1.5_ad276fc9b700260570640a88f910ae97a2c88794.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_6d3b0249e46be0964603a84ae9f7fb85ac37d15a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_0f93f9b0a653ad058fe79a602f12fdbb54fbb787.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\gson-2.6.1_2326a3d0055998ff2fdf073561d47a3859196b69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_67ead18d27dc6d00e5c7e7af33eb10d171065558.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_7563c70da24217c721da915abcdd37aea7f971aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_78ca1d9f1b984a679ff93a2d46c07e09bd9c9d0b.jar" />
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_0d041aaf0a3fffbc70a5ecf5d11c7ef34fc88e4a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_6bc60ca10553456311fdc90b23704fececbbcb79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_6754937115481c40cdc0a21427a350deddf34b77.jar" />
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_8d9d6dd2990b893ef0727d7093414bf08d2ccc39.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_521cd9536187f1bb1ac047dc63948707df798a9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.2_bad1cd7f0b4a66ee0351791370489415fd9dce3c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\okio-1.8.0_fe4ce6fa83f35c50aada3eddd54dcd3ead9539e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_0e4ca2920f7324fc17055a2574246e2c8e42bc8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_f6232a7581820bd768e4923d0d6c5dbbb7ccf63b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_d5e263b69d43eef9af5eb96594b6bfd76bade50c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\brenorage\AndroidStudioProjects\payWithCardSample\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_1b1f53a087b40a70e78eafde0c8d523be91222d2.jar" />
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_547c77172c18096483cbeb0a6b2a0dbc459d935d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_ccc954658f38d831426051a725939c58dffd6ca6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/gson-2.6.1_fadadfd07eadd986c3fcf060ed0d60da29834133.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_e69e1ceb664ad0f943d9279fece57b2de98a5974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_1c952ac4770cd1b2c499d479b41fd6084ff9ccdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_846be765ea06decb3e0a8492154622b72eeaf78a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_82f1ba5912802b77a04fba2caacb804a058fff30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/okio-1.6.0_c8cfdc14f9319ac5e8a349d69f1a75ae37ab07fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_b85c1d81ef9b4b700edc768c6c508fc23d265af1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_70bb70ec0788debd5cc9a1832a195922aa06ea92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_400109eacc964ecc950c4305b3b205dad4a7e1bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_d3eb82be13dca36ead7a5f9d6a2747eec2199771.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_285d2692e148c4238dfb8205138da9ad1d6043f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_97a1ee9c0a9ebd80b157e3c12aef053e534485a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_358bb0195f24adb534e2658043c2ca98f99602c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_9fc527cdac1834be6ecfb940e5073f7c78839166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_38a49b59efea8daa4f8dcf54ddb59124ec1c4a5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19a40a8afe0289f6520b25353096ac233e78f69d">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.github.satyan-sugar-1.5_ee52708b459b14b7f9b4173895ac1aed1558d2dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_1533c48171b9aa2d729c45d1f97466361b721936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.0_31c92af5c95d2ec4b42210a8ccd2ba2b3c432d55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_76ea8e6edfc4d57ca6ccf42679c5a6958633fa3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_553f2a52d372927a31b8a7eac42867c63c368a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/home/brenorage/Workspace/payWithCardSample/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_84a5de2097054b28fc7251597ae4c1f696281214.jar" />
     </item>
 
 </items>
