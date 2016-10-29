@@ -8,5 +8,5 @@ import retrofit2.http.POST;
 
 public interface PaymentService {
     @POST("/pay")
-    Call<PaymentTransaction> makeTransaction(@Body PaymentTransaction transaction);
+    Call<Void> makeTransaction(@Body PaymentTransaction transaction);
 }

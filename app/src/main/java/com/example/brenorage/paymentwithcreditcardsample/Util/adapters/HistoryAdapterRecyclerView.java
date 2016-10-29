@@ -39,6 +39,8 @@ public class HistoryAdapterRecyclerView extends RecyclerView.Adapter<HistoryRecy
 
         String cardNumberString = paymentTransaction.getCardNumber();
         holder.cardNumber.setText(cardNumberString.substring((cardNumberString.length() - 4)));
+
+        holder.status.setText(paymentTransaction.getStatus());
     }
 
     @Override

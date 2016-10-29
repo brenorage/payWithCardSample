@@ -28,6 +28,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/creditCardTextView"
+            android:gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusTextView"
+            android:gravity="center"
             android:textColor="@android:color/darker_gray"
             android:layout_weight="1"/>
 

@@ -15,8 +15,7 @@ public class PaymentConnection {
         return new Retrofit.Builder().baseUrl(Constants.BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
     }
 
-    public Call<PaymentTransaction> makeTransaction(PaymentTransaction paymentTransaction) throws Exception {
-
+    public Call<Void> makeTransaction(PaymentTransaction paymentTransaction) throws Exception {
         PaymentService paymentService = getRetrofitBuilder().create(PaymentService.class);
         return paymentService.makeTransaction(paymentTransaction);
     }
