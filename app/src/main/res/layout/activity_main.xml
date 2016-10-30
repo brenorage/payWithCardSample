@@ -35,7 +35,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/payButton"
+                android:id="@+id/mainPayButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:text="@string/pay_button"
                 android:textStyle="bold" />

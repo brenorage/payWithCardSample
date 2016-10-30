@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.payButton)
+    @OnClick(R.id.mainPayButton)
     public void payAction() {
         Intent intent = new Intent(this, PaymentActivity.class);
         startActivity(intent);
