@@ -11,16 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26f3afad-7dee-43de-95a5-958654e14a5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/PaymentActivityTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/ExampleInstrumentedTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/MainActivityTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/MainActivityTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/brenorage/paymentwithcreditcardsample/Util/holders/HistoryRecyclerViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/brenorage/paymentwithcreditcardsample/Util/holders/HistoryRecyclerViewHolder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/brenorage/paymentwithcreditcardsample/view/PaymentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/brenorage/paymentwithcreditcardsample/view/PaymentActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" />
@@ -96,8 +92,8 @@
       <file leaf-file-name="PaymentActivityTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/PaymentActivityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+            <state relative-caret-position="369">
+              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1976#1977#0" expanded="true" />
@@ -2709,7 +2705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477453444616</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementing instrument tests">
+      <created>1477878949024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477878949024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2795,7 +2798,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add text watchers for currency and brand card, and doing the history recycler view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add text watchers for currency and brand card, and doing the history recycler view" />
+    <MESSAGE value="Implementing instrument tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing instrument tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3158,8 +3162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/brenorage/paymentwithcreditcardsample/PaymentActivityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        <state relative-caret-position="369">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1976#1977#0" expanded="true" />

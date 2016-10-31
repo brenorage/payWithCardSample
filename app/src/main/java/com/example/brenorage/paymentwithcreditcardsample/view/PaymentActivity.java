@@ -3,7 +3,6 @@ package com.example.brenorage.paymentwithcreditcardsample.view;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.brenorage.paymentwithcreditcardsample.R;
@@ -17,25 +16,25 @@ import butterknife.OnClick;
 
 public class PaymentActivity extends AppCompatActivity {
 
-    @BindView(R.id.amountTextView)
+    @BindView(R.id.amountEditText)
     EditText amountEditText;
 
-    @BindView(R.id.nameTextView)
+    @BindView(R.id.nameEditText)
     EditText nameTextView;
 
-    @BindView(R.id.cardNumberTextView)
+    @BindView(R.id.cardNumberEditText)
     EditText cardNumberTextView;
 
-    @BindView(R.id.cvvTextView)
+    @BindView(R.id.cvvEditText)
     EditText cvvTextView;
 
-    @BindView(R.id.monthTextView)
+    @BindView(R.id.monthEditText)
     EditText monthTextView;
 
-    @BindView(R.id.yearTextView)
+    @BindView(R.id.yearEditText)
     EditText yearTextView;
 
-    @BindView(R.id.brandCardTextView)
+    @BindView(R.id.brandCardEditText)
     EditText brandCardTextView;
 
     PaymentPresenter paymentPresenter;
@@ -88,6 +87,9 @@ public class PaymentActivity extends AppCompatActivity {
         else if(cardNumber.isEmpty()) {
             cardNumberTextView.setError(getString(R.string.empty_field));
         }
+        else if(brandCard.isEmpty()) {
+            brandCardTextView.setError(getString(R.string.empty_field));
+        }
         else if(cvv.isEmpty() || cvv.length() < 3) {
             cvvTextView.setError(getString(R.string.empty_field));
         }
@@ -96,9 +98,6 @@ public class PaymentActivity extends AppCompatActivity {
         }
         else if(!paymentPresenter.isValidYear(year)) {
             yearTextView.setError(getString(R.string.empty_field));
-        }
-        else if(brandCard.isEmpty()) {
-            brandCardTextView.setError(getString(R.string.empty_field));
         }
         else {
             paymentTransaction = new PaymentTransaction();

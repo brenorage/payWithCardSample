@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_payment"
     android:orientation="vertical"
@@ -8,91 +8,98 @@
     android:padding="@dimen/activity_horizontal_margin"
     tools:context="com.example.brenorage.paymentwithcreditcardsample.view.PaymentActivity">
 
-    <EditText
-        android:hint="@string/amount_hint"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:inputType="numberDecimal"
-        android:id="@+id/amountTextView" />
-
-    <EditText
-        android:hint="@string/name_hint"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/nameTextView"
-        android:inputType="textPersonName"
-        android:layout_marginTop="20dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-
-    <EditText
-        android:hint="@string/card_number_hint"
-        android:layout_height="wrap_content"
-        android:layout_width="0dp"
-        android:layout_weight="3"
-        android:inputType="number"
-        android:maxLength="16"
-        android:layout_marginRight="5dp"
-        android:layout_marginEnd="5dp"
-        android:id="@+id/cardNumberTextView" />
+        android:orientation="vertical">
 
         <EditText
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:hint="@string/amount_hint"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/card_brand_hint"
-            android:inputType="text"
-            android:id="@+id/brandCardTextView" />
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:id="@+id/amountEditText" />
+
+        <EditText
+            android:hint="@string/name_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEditText"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+        <EditText
+            android:hint="@string/card_number_hint"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:inputType="number"
+            android:maxLength="16"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/cardNumberEditText" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="@string/card_brand_hint"
+                android:inputType="text"
+                android:id="@+id/brandCardEditText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:hint="@string/cvv_hint"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:maxLength="4"
+                android:layout_height="wrap_content"
+                android:id="@+id/cvvEditText" />
+
+            <EditText
+                android:hint="@string/month_hint"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:maxLength="2"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:id="@+id/monthEditText" />
+            <EditText
+                android:hint="@string/year_hint"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:maxLength="4"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearEditText" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_button"
+            android:layout_marginTop="20dp"
+            android:id="@+id/paymentButton"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_gravity="end"/>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:hint="@string/cvv_hint"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:inputType="number"
-            android:maxLength="4"
-            android:layout_height="wrap_content"
-            android:id="@+id/cvvTextView" />
-
-        <EditText
-            android:hint="@string/month_hint"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:maxLength="2"
-            android:inputType="number"
-            android:layout_height="wrap_content"
-            android:id="@+id/monthTextView" />
-        <EditText
-            android:hint="@string/year_hint"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:maxLength="4"
-            android:inputType="number"
-            android:layout_height="wrap_content"
-            android:id="@+id/yearTextView" />
-
-    </LinearLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/pay_button"
-        android:layout_marginTop="20dp"
-        android:id="@+id/paymentButton"
-        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_gravity="end"/>
-
-</LinearLayout>
+</ScrollView>

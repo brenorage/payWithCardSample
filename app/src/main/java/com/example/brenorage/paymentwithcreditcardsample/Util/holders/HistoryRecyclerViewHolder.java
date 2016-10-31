@@ -17,8 +17,8 @@ public class HistoryRecyclerViewHolder extends RecyclerView.ViewHolder {
     public HistoryRecyclerViewHolder(LinearLayout layoutItem) {
         super(layoutItem);
 
-        name = (TextView) layoutItem.findViewById(R.id.nameTextView);
-        amount = (TextView) layoutItem.findViewById(R.id.amountTextView);
+        name = (TextView) layoutItem.findViewById(R.id.nameEditText);
+        amount = (TextView) layoutItem.findViewById(R.id.amountEditText);
         cardNumber = (TextView) layoutItem.findViewById(R.id.creditCardTextView);
         status = (TextView) layoutItem.findViewById(R.id.statusTextView);
     }
